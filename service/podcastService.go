@@ -716,6 +716,11 @@ func makeQuery(url string) ([]byte, error) {
 		return nil, err
 	}
 
+	setting := db.GetOrCreateSetting()
+	if len(setting.UserAgent) > 0 {
+		req.Header.Add("User-Agent", setting.UserAgent)
+	}
+
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return nil, err

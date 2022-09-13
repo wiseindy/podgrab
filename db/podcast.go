@@ -88,7 +88,7 @@ type Setting struct {
 	DontDownloadDeletedFromDisk   bool `gorm:"default:false"`
 	BaseUrl                       string
 	MaxDownloadConcurrency        int `gorm:"default:5"`
-	UserAgent                     string
+	UserAgent                     string `gorm:"default:\"Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33\""`
 }
 type Migration struct {
 	Base
