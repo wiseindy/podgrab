@@ -7,7 +7,7 @@ import (
 	"net/url"
 
 	"github.com/TheHippo/podcastindex"
-	"github.com/akhilrex/podgrab/model"
+	"github.com/wiseindy/podgrab/model"
 )
 
 type SearchService interface {

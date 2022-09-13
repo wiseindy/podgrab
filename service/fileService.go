@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/akhilrex/podgrab/db"
-	"github.com/akhilrex/podgrab/internal/sanitize"
+	"github.com/wiseindy/podgrab/db"
+	"github.com/wiseindy/podgrab/internal/sanitize"
 	stringy "github.com/gobeam/stringy"
 )
 

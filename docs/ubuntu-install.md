@@ -23,7 +23,7 @@ Following steps will only work if Go is installed and configured properly.
 ## Clone from Git
 
 ``` bash
-git clone --depth 1 https://github.com/akhilrex/podgrab
+git clone --depth 1 https://github.com/wiseindy/podgrab
 ```
 
 ## Build and Copy dependencies
@@ -97,7 +97,7 @@ sudo systemctl stop podgrab.service
 ## Clone from Git
 
 ``` bash
-git clone --depth 1 https://github.com/akhilrex/podgrab
+git clone --depth 1 https://github.com/wiseindy/podgrab
 ```
 
 ## Build and Copy dependencies
